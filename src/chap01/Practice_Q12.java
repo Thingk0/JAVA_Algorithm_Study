@@ -2,8 +2,10 @@ package chap01;
 
 public class Practice_Q12 {
     public static void main(String[] args){
-        System.out.println("   | 1  2  3  4  5  6  7  8  9");
-        System.out.println("---+---------------------------");
+        System.out.print("   |");
+        for (int i = 1; i <= 9; i++)
+            System.out.printf("%3d", i);
+        System.out.println("\n---+---------------------------");
 
         for(int i=1; i<=9; i++){
             System.out.printf("%d |", i);
