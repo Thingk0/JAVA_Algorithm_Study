@@ -6,14 +6,11 @@ public class Practice_Q16 {
 
     static void spira(int n){
         for(int i=1; i<=n; i++) {
-            for(int l=1; l<=n-i; l++)
+            for(int l=0; l<=n-i; l++)
                 System.out.print(" ");
 
             for(int s=1; s<=((i*2)-1); s++)
                 System.out.print("*");
-
-            for(int r=1; r<=n-i; r++)
-                System.out.print(" ");
 
             System.out.println();
         }
