@@ -19,17 +19,14 @@ public class Practice_Q1 {
         Random rand = new Random();
         Scanner stdIn = new Scanner(System.in);
 
-        int minHeight = 155;
-        int maxHeight = 185;
-
         System.out.println("키의 최댓값을 구합니다.");
-        int num = rand.nextInt(10) + 1;
+        int num = rand.nextInt(20) + 1;
         int[] height = new int[num];
 
+        System.out.println("사람수는 " + num + "명입니다.");
         System.out.println("키 값은 아래와 같습니다.");
         for ( int i = 0; i < num; i++) {
-            height[i] = 160 + rand.nextInt(26); // 160~185
-            //height[i] = (int) (Math.random() * (maxHeight-minHeight+1)) + minHeight);
+            height[i] = 100 + rand.nextInt(90);
             System.out.println("height[" + i + "] : " + height[i]);
         }
 

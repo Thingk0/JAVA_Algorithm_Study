@@ -10,20 +10,20 @@ public class Practice_Q2 {
         a[idx2] = t;
     }
 
+    static void print(int[] a) {
+        for (int i=0; i<a.length; i++)
+            System.out.print(a[i] + " ");
+        System.out.println();
+    }
+
     // 배열 a의 요소를 역순으로 정렬
     static void reverse(int[] a) {
+        print(a);
         for ( int i = 0; i < a.length / 2; i++){
-            for (int j = 0; j<a.length; j++){
-                System.out.print(a[j] + " ");
-            }
-            System.out.printf("\na[%d]과(와) a[%d]를 교환합니다.\n", i, a.length-i-1);
+            System.out.printf("a[%d]과(와) a[%d]를 교환합니다.\n", i, a.length-i-1);
             swap(a, i, a.length-i-1);
+            print(a);
         }
-
-        for (int j = 0; j<a.length; j++){
-            System.out.print(a[j] + " ");
-        }
-        System.out.println("\n역순 정렬을 마쳤습니다.");
     }
 
     public static void main(String[] args) {
