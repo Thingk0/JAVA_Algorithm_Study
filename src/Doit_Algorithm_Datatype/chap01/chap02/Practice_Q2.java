@@ -40,9 +40,9 @@ public class Practice_Q2 {
         }
 
         reverse(x);
+        System.out.println("역순 정렬을 마쳤습니다.");
 
-        /* System.out.println("요소를 역순으르 정렬했습니다.");
-        for (int i = 0; i < num; i++)
-            System.out.println("x[" + i + "] = " + x[i]);*/
     }
+
+    // Check - 22.04.22
 }

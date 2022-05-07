@@ -6,12 +6,12 @@ public class SumFor_Q9 {
 
         int sum = 0;
 
-        if ( a > b) {
-            for(int i=b; i<=a; i++)
-                sum+=i;
+        if ( a > b ) {
+            for(int i = b; i <= a; i++)
+                sum += i;
         } else {
-            for(int i=a; i<=b; i++)
-                sum+=i;
+            for(int i = a; i <= b; i++)
+                sum += i;
         }
 
         return sum;
@@ -21,4 +21,6 @@ public class SumFor_Q9 {
         System.out.println(sumof(3,5));
         System.out.println(sumof(6,4));
     }
+
+    // Check - 22.04.22
 }

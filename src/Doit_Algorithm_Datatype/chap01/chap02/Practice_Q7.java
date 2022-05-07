@@ -41,6 +41,7 @@ class Practice_Q7 {
 
         System.out.println("10진수를 기수 변환합니다.");
         do {
+
             do {
                 System.out.print("변환하는 음이 아닌 정수 : ");
                 no = scanner.nextInt();
@@ -59,4 +60,5 @@ class Practice_Q7 {
         } while ( retry == 1);
     }
 
+    // Check - 22.04.22
 }

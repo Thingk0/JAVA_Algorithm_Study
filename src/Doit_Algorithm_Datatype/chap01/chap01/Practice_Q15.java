@@ -63,4 +63,6 @@ public class Practice_Q15 {
         System.out.println();
         triangleRB(n);
     }
+
+    // Check - 22.04.22
 }

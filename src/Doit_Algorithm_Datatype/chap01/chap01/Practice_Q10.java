@@ -13,11 +13,14 @@ public class Practice_Q10 {
             System.out.print("b의 값 : ");
             b = scanner.nextInt();
 
-           if(a>=b)
+           if( a>=b )
                System.out.println("a보다 큰 값을 입력하세요!");
-       } while (a>=b);
+
+       } while (a >= b);
 
         System.out.println("b - a는 " + (b-a)+"입니다.");
 
     }
+
+    // Check - 22.04.22
 }

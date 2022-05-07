@@ -14,4 +14,6 @@ public class Practice_Q12 {
             System.out.println();
         }
     }
+
+    // Check - 22.04.22
 }

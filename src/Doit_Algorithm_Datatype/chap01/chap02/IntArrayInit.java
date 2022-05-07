@@ -9,4 +9,6 @@ public class IntArrayInit {
             System.out.println("a["+i+"] = " + a[i]);
         }
     }
+
+    // Check - 22.04.22
 }

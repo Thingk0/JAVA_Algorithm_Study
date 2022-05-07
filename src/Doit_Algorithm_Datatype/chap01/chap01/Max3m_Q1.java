@@ -16,4 +16,6 @@ public class Max3m_Q1 {
     public static void main(String[] args){
         System.out.println(max4(3,2,1,4));
     }
+
+    // Check - 22.04.22
 }

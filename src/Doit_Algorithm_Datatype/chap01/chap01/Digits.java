@@ -13,8 +13,11 @@ public class Digits {
             System.out.print("입력 : ");
             no = scanner.nextInt();
         } while (no < 10 || no > 99); // 일 경우 재입력;
-        // while ( !(no >=10 || no <= 99) );
+        // 드모르간 법칙
+        // while ( !( no >= 10 && no <= 99 ));
 
         System.out.println("변수 no의 값은 " + no + "가(이) 되었습니다.");
     }
+
+    // Check - 22.04.22
 }

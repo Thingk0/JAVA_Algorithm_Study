@@ -28,6 +28,8 @@ public class MaxOfArray {
             height[i] = scanner.nextInt();
         }
 
-        System.out.println("최댓값은 " +maxOf(height) + "입니다.");
+        System.out.println("최댓값은 " + maxOf(height) + "입니다.");
     }
+
+    // Check - 22.04.22
 }

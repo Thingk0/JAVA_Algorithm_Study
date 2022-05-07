@@ -32,4 +32,6 @@ class Median {
 
         System.out.println("중앙값은 " + med3(a, b, c) + "입니다.");
     }
+
+    // Check - 22.04.22
 }

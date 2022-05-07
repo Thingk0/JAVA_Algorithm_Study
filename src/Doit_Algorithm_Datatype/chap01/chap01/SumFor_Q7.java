@@ -22,4 +22,6 @@ public class SumFor_Q7 {
 
         System.out.printf(" = %d", sum);
     }
+
+    // Check - 22.04.22
 }

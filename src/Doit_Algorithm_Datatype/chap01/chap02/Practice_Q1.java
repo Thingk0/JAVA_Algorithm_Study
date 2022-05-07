@@ -20,7 +20,7 @@ public class Practice_Q1 {
         Scanner stdIn = new Scanner(System.in);
 
         System.out.println("키의 최댓값을 구합니다.");
-        int num = rand.nextInt(20) + 1;
+        int num = rand.nextInt(10) + 1;
         int[] height = new int[num];
 
         System.out.println("사람수는 " + num + "명입니다.");
@@ -32,4 +32,6 @@ public class Practice_Q1 {
 
         System.out.println("최댓값은 " +maxOf(height) + "입니다.");
     }
+
+    // Check - 22.04.22
 }

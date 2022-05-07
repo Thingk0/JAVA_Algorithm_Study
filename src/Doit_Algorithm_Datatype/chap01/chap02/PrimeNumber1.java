@@ -19,4 +19,6 @@ public class PrimeNumber1 {
         }
         System.out.println("나눗셈을 수행한 횟수 : " + counter);
     }
+
+    // Check - 22.04.22
 }

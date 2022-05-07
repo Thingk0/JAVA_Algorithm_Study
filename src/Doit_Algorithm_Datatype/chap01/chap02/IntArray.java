@@ -12,4 +12,6 @@ public class IntArray {
             System.out.println("a["+i+"] = " + a[i]);
         }
     }
+
+    // Check - 22.04.22
 }

@@ -33,10 +33,11 @@ class CardConvRev {
                 cd = scanner.nextInt();
             } while ( cd < 2 || cd > 36);
 
+            // dno = 2
             dno = cardConvR(no, cd, cno);
 
             System.out.print(cd + "진수로는 ");
-            for (int i=dno-1; i>=0; i--)
+            for (int i = dno-1; i >= 0; i--)
                 System.out.print(cno[i]);
             System.out.println("입니다.");
 
@@ -46,4 +47,6 @@ class CardConvRev {
         } while ( retry == 1);
     }
 
+
+    // Check - 22.04.22
 }

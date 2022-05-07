@@ -29,4 +29,7 @@ public class Practice_Q16 {
         spira(n);
 
     }
+
+
+    // Check - 22.04.22
 }

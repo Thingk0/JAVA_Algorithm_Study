@@ -28,4 +28,6 @@ public class Practice_Q3 {
 
         System.out.printf("모든 요소의 합 : %d",sumOf(x));
     }
+
+    // Check - 22.04.22
 }

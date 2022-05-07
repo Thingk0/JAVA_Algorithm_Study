@@ -10,4 +10,6 @@ public class Multi99Table {
             System.out.println();
         }
     }
+
+    // Check - 22.04.22
 }

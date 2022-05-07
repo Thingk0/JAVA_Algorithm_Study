@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ArrayEqual {
 
     static boolean equals(int[] a, int[] b) {
+
         if (a.length != b.length)
             return false;
 
@@ -43,4 +44,7 @@ public class ArrayEqual {
 
     }
 
+
+
+    // Check - 22.04.22
 }

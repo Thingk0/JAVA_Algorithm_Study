@@ -12,7 +12,7 @@ public class SumForPos {
         do {
             System.out.print("n의 값 : ");
             n = scanner.nextInt();
-        } while (n <= 0 );
+        } while ( n <= 0 );
 
         int sum = 0;
 

@@ -27,10 +27,12 @@ public class MaxOfArrayRand {
 
         System.out.println("키 값은 아래와 같습니다.");
         for ( int i = 0; i < num; i++) {
-            height[i] = 100 + rand.nextInt(90);
+            height[i] = 150 + rand.nextInt(50);
             System.out.println("height[" + i + "] : " + height[i]);
         }
 
         System.out.println("최댓값은 " +maxOf(height) + "입니다.");
     }
+
+    // Check - 22.04.22
 }

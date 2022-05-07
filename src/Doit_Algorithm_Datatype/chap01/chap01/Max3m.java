@@ -18,4 +18,6 @@ public class Max3m {
         System.out.println(max3(30,12,100));
         System.out.println(max3(-3,-2,-1));
     }
+
+    // Check - 22.04.22
 }

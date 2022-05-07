@@ -17,4 +17,6 @@ public class Max3 {
 
         System.out.println("최댓값은 " + max + "입니다.");
     }
+
+    // Check - 22.04.22
 }
